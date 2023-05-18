@@ -21,7 +21,7 @@ body{
     margin: 0;
     background-image: url('https://images.unsplash.com/photo-1673337816356-67260256a4ae?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2429&q=80');
     background-position: top;
-    background-size: cover;
+    background-size: auto;
     color: var(--color-text);
     font-family: 'Poppins', sans-serif;
 }
@@ -36,13 +36,14 @@ li:hover {
 .navbar {
     height: 1vh;
     width: fit-content;
-    background: white;
+    background: rgb(217, 182, 211);
     position: absolute;
     z-index: 1;
     border-bottom-left-radius: 3vh;
     border-bottom-right-radius: 3vh;
     transition: 0.4s ease-in-out;
     top: calc(100% - 10px);
+    box-shadow: 1px 2px 4px 0px rgba(77, 37, 158, 0.75) inset;
 }
 
 header{
